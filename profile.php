@@ -3,8 +3,6 @@ session_start();
 if($_SESSION["username"] == null)
 	die(header('location: signIn.php'));
 require("mysql.php");
-// error_reporting("-1");
-// ini_set('display_errors',"On");
 
 $username = $_SESSION['username'];
 print_r("<br>");
@@ -91,9 +89,6 @@ $link->close();
 			error_reporting("-1");
 			ini_set('display_errors',"On");
 			require("mysql.php");
-			// $link = new mysqli('localhost','root','AARYAN1235','PasteBin');
-			// if($link->connect_errno)
-			// 	die ("Connection attempt unsuccesfull");
 			$username = $_SESSION["username"];
 			$result = mysqli_query($link, "SELECT * FROM Paste WHERE Username = '$username'");
 			$temp = mysqli_fetch_assoc($result);

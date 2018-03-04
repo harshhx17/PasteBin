@@ -1,10 +1,6 @@
 <?php  
 session_start();
-// error_reporting("-1");
-// ini_set('display_errors',"On");
-// $link = new mysqli('localhost','root','AARYAN1235','PasteBin');
-// if($link->connect_errno)
-// 	die ("Connection attempt unsuccesfull");
+
 require("mysql.php");
 if(isset($_POST['sign_in']))
 {

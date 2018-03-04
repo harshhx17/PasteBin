@@ -3,11 +3,7 @@ session_start();
 require(mysql.php);
 if($_SESSION["username"] == null)
 	die(header('location: signIn.php'));
-// error_reporting("-1");
-// ini_set('display_errors',"On");
-// $link = new mysqli('localhost','root','AARYAN1235','PasteBin');
-// if($link->connect_errno)
-// 	die ("Connection attempt unsuccesfull");
+
 require("mysql.php");
 $username = $_SESSION['username'];
 $id = $_GET["id"];
