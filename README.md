@@ -30,4 +30,6 @@ INSERT INTO `currentIndex` (`count`) VALUES
 ```
 3)Change the data about host, user, password and database name in mysql.php
 
+4)You can uncomment line 2 and 3 if you wish for error handling to be turned on.
+
 4)You are good to go:wink:
