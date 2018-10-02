@@ -1,9 +1,7 @@
 # PasteBin
-A pastebin clone which has the follwing features:
-1. User authentication(Login/Sign up)
-2. Each paste has a unique generated link which can be publicly shared.
-3. A simple dashboard for each user to see created pastes.
-4. Corresponding to each paste on the dashboard there is a public/private toggle and delete option.
+
+
+Pastebin clone has  user authentication and generatesa unique link for public sharing of code.
 
 Setup Guide:
 1) Clone or download the repository.
